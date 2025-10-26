@@ -44,7 +44,7 @@ class _RecommendationPageState extends State<RecommendationPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Text(
-                    'রোগের বিভেগ নির্বাচন ক্ৰম', // Assuming typo for 'বিভাগ'
+                    'রোগের বিভাগ নির্বাচন ক্ৰম', // Assuming typo for 'বিভাগ'
                     style: TextStyle(
                       color: AppColors.accent,
                       fontSize: 20,
