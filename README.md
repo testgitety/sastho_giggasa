@@ -139,11 +139,11 @@ Distributed under the [e.g., MIT] License. See `LICENSE` file for more informati
 
 ## 👤 Author
 
-**Isma Khatun**
+**ISMA KHATUN\n**
 **DURJOY ACHARYA**
 
-* GitHub: [@YOUR-USERNAME](https://github.com/[YOUR-USERNAME])
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* GitHub: [@YOUR-USERNAME](https://github.com/CodeArtisanDurjoy)
+* Email: [isma.ety91@gmail.com](mailto:isma.ety91@gmail.com)
 * LinkedIn: [https://linkedin.com/in/your-linkedin-profile](https://linkedin.com/in/your-linkedin-profile)
 
-Project Link: [https://github.com/[YOUR-USERNAME]/[YOUR-REPO-NAME]](https://github.com/[YOUR-USERNAME]/[YOUR-REPO-NAME])
+Project Link: ([https://github.com/[YOUR-USERNAME]/[YOUR-REPO-NAME]](https://github.com/testgitety/sastho_giggasa))
