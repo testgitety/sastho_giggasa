@@ -142,8 +142,7 @@ Distributed under the [e.g., MIT] License. See `LICENSE` file for more informati
 **ISMA KHATUN\n**
 **DURJOY ACHARYA**
 
-* GitHub: [@YOUR-USERNAME](https://github.com/CodeArtisanDurjoy)
+* GitHub: [@isma_khatun](https://github.com/CodeArtisanDurjoy)
 * Email: [isma.ety91@gmail.com](mailto:isma.ety91@gmail.com)
-* LinkedIn: [https://linkedin.com/in/your-linkedin-profile](https://linkedin.com/in/your-linkedin-profile)
 
 Project Link: ([https://github.com/[YOUR-USERNAME]/[YOUR-REPO-NAME]](https://github.com/testgitety/sastho_giggasa))
