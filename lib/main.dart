@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/recommendation_page.dart';
+import 'pages/category_list_page.dart';
+import 'pages/recommendation_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'রোগের নিরাপন নির্বাচন ক্ৰম',
+      title: 'স্বাস্থ্য জিজ্ঞাসা',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
       home: const RecommendationPage(),
+      // home: const CategoryListPage(),
     );
   }
 }

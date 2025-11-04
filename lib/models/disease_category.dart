@@ -13,15 +13,15 @@ class DiseaseCategory {
 }
 
 // Define your categories here
-List<DiseaseCategory> diseaseCategories = [
+final List<DiseaseCategory> diseaseCategories = [
   DiseaseCategory(
     id: 'A',
     title: 'সংক্রমণজনিত রোগ',
     icon: '🌼',
     diseases: [
       'সর্দি-কাশি (Common Cold)',
-      'ফ্লু (Fever)',
-      'ইনফ্লুয়েঞ্জা (Flu)',
+      'জ্বর (Fever)',
+      'ইনফ্লুয়েঞ্জা (Influenza)',
       'টাইফয়েড (Typhoid Fever)',
       'নিউমোনিয়া (Pneumonia)',
       'জন্ডিস (Jaundice)',
@@ -33,7 +33,7 @@ List<DiseaseCategory> diseaseCategories = [
       'ডেঙ্গু জ্বর (Dengue Fever)',
       'চিকুনগুনিয়া (Chikungunya)',
       'কলেরা (Cholera)',
-      'হেপাটাইটিস A.B.C (Hepatitis)',
+      'হেপাটাইটিস A, B, C (Hepatitis)',
       'খুব জ্বর (Mumps)',
       'করোনা-১৯ (COVID-19)',
       'হুপিং কফ (Whooping Cough)',
@@ -44,68 +44,152 @@ List<DiseaseCategory> diseaseCategories = [
   ),
   DiseaseCategory(
     id: 'B',
-    title: 'খাবর ও পুষ্টির সমস্যা',
+    title: 'খাদ্য ও পুষ্টির সমস্যা',
     icon: '🍴',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'অপুষ্টি (Malnutrition)',
+      'ভিটামিনের অভাব (Vitamin Deficiency)',
+      'আয়রনের অভাব (Iron Deficiency Anemia)',
+      'ডায়াবেটিস (Diabetes Mellitus)',
+      'স্থূলতা (Obesity)',
+      'খাদ্যে বিষক্রিয়া (Food Poisoning)'
+    ],
   ),
   DiseaseCategory(
     id: 'C',
-    title: 'লাসাতন ও ইতলরগ', // Assuming typo for 'লাস্যতা' or similar
+    title: 'লালা-স্রাব ও ইউরিনারি রোগ',
     icon: '💚',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'প্রস্রাবে সংক্রমণ (UTI)',
+      'কিডনি পাথর (Kidney Stones)',
+      'প্রোস্টেট বৃদ্ধি (BPH)',
+      'মূত্রাশয়ের ক্যান্সার (Bladder Cancer)',
+    ],
   ),
   DiseaseCategory(
     id: 'D',
-    title: 'মানুষ প্রদিনতিক রোগ', // Assuming typo for 'প্রাদি' or similar
+    title: 'স্নায়ু ও মানসিক রোগ',
     icon: '🧠',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'মাথাব্যথা (Headache)'
+      'অবসাদ (Depression)',
+      'খিঁচুনি / মৃগী (Epilepsy)'
+      'স্নায়ু দুর্বলতা (Neuropathy)'
+      'মানসিক চাপ (Stress)'
+      'অ্যাঙ্গজাইটি (Anxiety Disorder)',
+      'আলঝাইমার (Alzheimer’s)',
+      'পারকিনসন (Parkinson’s)',
+      'মাইগ্রেন (Migraine)',
+      'প্যানিক অ্যাটাক (Panic Attack)'
+      'বাইপোলার ডিসঅর্ডার (Bipolar)'
+      'সিজোফ্রেনিয়া (Schizophrenia)'
+      'অটিজম (Autism)'
+    ],
   ),
   DiseaseCategory(
     id: 'E',
-    title: 'নেখা, কান, নাত ও গোল', // Assuming typo for 'নাক' or similar
+    title: 'নাক, কান, গলা ও চোখ',
     icon: '🩺',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'সাইনোসাইটিস (Sinusitis)',
+      'চোখ উঠা (Conjunctivitis)'
+      'কানে পুঁজ / ব্যথা (Otitis)'
+      'অটিটিস (Otitis Media)',
+      'দাঁতের ব্যথা (Toothache)'
+      'গলা ব্যথা (Sore Throat)',
+      'কনজাংটিভাইটিস (Conjunctivitis)',
+      'গ্লুকোমা (Glaucoma)',
+    ],
   ),
   DiseaseCategory(
     id: 'F',
-    title: 'চাৰ্মরোগ ও আলালরিক', // Assuming typo for 'ত্বক' or similar
+    title: 'চর্মরোগ ও অ্যালার্জি',
     icon: '⭐',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'একজিমা (Eczema)',
+      'ব্রণ (Acne)'
+      'দাদ (Ringworm)'
+      'চুলকানি (Scabies)'
+      'সোরিয়াসিস (Psoriasis)',
+      'ফাঙ্গাল ইনফেকশন (Fungal Infection)',
+      'অ্যালার্জিক র‍্যাশ (Allergic Rash)',
+    ],
   ),
   DiseaseCategory(
     id: 'G',
-    title: 'হাৰাগত ও নির্ণাশীতি সমস্যা', // Assuming typo for 'হার্মোন' or similar
+    title: 'হরমোন ও বিপাকীয় সমস্যা',
     icon: '🧪',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'থাইরয়েড রোগ (Thyroid Disorder)',
+      'পিসিওডি (PCOD/PCOS)',
+      'অ্যাডিসন রোগ (Addison’s Disease)',
+      'ডায়াবেটিস (Diabetes)'
+    ],
   ),
   DiseaseCategory(
     id: 'H',
-    title: 'নাত্রী ও প্ৰজনন ব্যাবা', // Assuming typo for 'নারী' or similar
+    title: 'নারী ও প্রজনন স্বাস্থ্য',
     icon: '⭕',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'অনিয়মিত মাসিক (Menstrual Irregularity)',
+      'সাদা স্রাব (Leukorrhea)'
+      'স্তন ক্যান্সার (Breast Cancer)'
+      'ফাইব্রয়েড (Uterine Fibroids)',
+      'ইনফার্টিলিটি (Infertility)',
+    ],
   ),
   DiseaseCategory(
     id: 'I',
-    title: 'পুরুষ ব্যাবা', // Assuming typo for 'পুরুষ' or similar
+    title: 'পুরুষ স্বাস্থ্য',
     icon: '♂️',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'ইরেকটাইল ডিসফাংশন (Erectile Dysfunction)',
+      'প্রোস্টেটাইটিস (Prostatitis)',
+    ],
   ),
   DiseaseCategory(
     id: 'J',
-    title: 'বিড়ার ও যুক্তবন', // Assuming typo for 'বীর্য' or similar
-    icon: '🦴',
-    diseases: [], // Add diseases for this category
+    title: 'হৃদরোগ ও রক্তবাহী রোগ',
+    icon: '❤️',
+    diseases: [
+      'উচ্চ রক্তচাপ (Hypertension)',
+      'হৃদরোগ (Heart Disease)',
+      'স্ট্রোক (Stroke)',
+    ],
   ),
   DiseaseCategory(
     id: 'K',
-    title: 'হাড়, নাসপেশি ও তন্তু',
+    title: 'হাড়, পেশি ও জয়েন্ট',
     icon: '🦴',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'আর্থ্রাইটিস (Arthritis)',
+      'অস্টিওপোরোসিস (Osteoporosis)',
+      'মাংসপেশি ব্যথা (Myalgia)',
+    ],
   ),
   DiseaseCategory(
     id: 'L',
-    title: 'শিশুদের সবাবাম রোগ', // Assuming typo for 'সাধারণ' or similar
+    title: 'শিশুদের সাধারণ রোগ',
     icon: '👶',
-    diseases: [], // Add diseases for this category
+    diseases: [
+      'জ্বর ও সর্দি (Fever & Cold)',
+      'ডায়রিয়া (Diarrhoea)',
+      'কৃমি সংক্রমণ (Worm Infestation)',
+    ],
+  ),
+  DiseaseCategory(
+    id: 'M',
+    title: 'শহজম ও পেটের সমস্যা',
+    icon: '👶',
+    diseases: [
+      'গ্যাস্ট্রিক / অম্বল (Acidity)',
+      'আলসার (Peptic Ulcer)',
+      'বদহজম (Indigestion)',
+      'কোষ্ঠকাঠিন্য (Constipation)'
+      'পেট ফাঁপা (Flatulence)'
+      'লিভার সমস্যা (Liver Problems)'
+      'কৃমি (Worm Infestation)'
+      'জন্ডিস (Jaundice)'
+    ],
   ),
 ];
